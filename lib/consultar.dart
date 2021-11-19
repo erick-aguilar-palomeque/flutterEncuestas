@@ -40,8 +40,10 @@ class TableComponent extends StatefulWidget {
 
 class TableState extends State<TableComponent> {
   bool bandera = false;
+
   List<Map<String, dynamic>> data = [];
   List<DataRow> dataList = [];
+
   List<DataRow> mapListToList(List<Map<String, dynamic>> data) {
     List<DataRow> rows = [];
 
